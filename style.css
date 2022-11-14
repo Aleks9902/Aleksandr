@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+    background-color: #B0E0E6;
+}
+.greetings,
+p,
+h1,
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+.logo img {
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    margin-bottom: 3em;
+    background-color: #FFA500;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+
+
+}
+ul li {
+    margin-right: 20px;
+
+
+}
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1,5rem;
+    color: #848484;
+    font-weight: 800;
+
+}
+.MyImage img {
+    width: 200px;
+    height: 180px;
+
+}
+.about_me {
+    display: flex;
+    flex-direction: column;
+       flex: 1 0 auto;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #48D1CC;
+    padding: 5px;
+    height: 100%;
+}
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+
+}
+.knowledge {
+    display: flex;
+    justify-content: center;
+    padding-right: 285px;
+
+
+}
+.article {
+    margin-top: 2em;
+}
+p {
+    font-size: 1.2rem;
+    color: #08298A;
+    padding-left: 20px;
+}
+.text {
+    font-size: 1rem;
+    color: #585858;
+}
+h2 {
+    text-align: center;
+    color: #424242;
+}
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+.footer {
+    background-color: #5882FA;
+    flex: 0 0 auto;
+}
